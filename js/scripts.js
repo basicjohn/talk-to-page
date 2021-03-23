@@ -27,7 +27,17 @@ $(document).ready(function () {
     $("ul#webpage").prepend("<li>Pardon me. I meant no offense.</li>");
     $('li').css('background-color', 'green');
   });
-  $("#salad").click(function () {
+  /*$("#salad").click(function () {
     $("h2#salad").fadeToggle();
+  });*/
+  $("#blueBkg").click(function () {
+    $("body").addClass("bkgBlue");
+  })
+  $("#btnblueTxt").click(function () {
+    $("body").addClass("bodytxtBlue");
   });
+  $("#salad").mouseup(function () {
+    $("#salad").after("How are you today?");
+  });
+
 });

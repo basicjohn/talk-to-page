@@ -1,4 +1,24 @@
-#numbers .card, #string .card, #boolean .card, #null .card, #undefined .card, #symbol .card {
-  display: none;
+body.bkgBlue {
+  background-color: blue;
 }
 
+body.bkgRed {
+  background-color: crimson;
+}
+
+body.bkgPurple {
+  background-color: darkmagenta;
+}
+
+
+body.bodytxtBlue {
+  color: blue;
+}
+
+body.txtRed {
+  color: crimson;
+}
+
+body.txtPurple {
+  color: mediumpurple;
+}
