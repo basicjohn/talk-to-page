@@ -1,0 +1,4 @@
+#numbers .card, #string .card, #boolean .card, #null .card, #undefined .card, #symbol .card {
+  display: none;
+}
+
